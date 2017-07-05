@@ -31,7 +31,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 返回最新的公共微博
-	 * 
+	 *
 	 * @return list of statuses of the Public Timeline
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -47,7 +47,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 返回最新的公共微博
-	 * 
+	 *
 	 * @param count
 	 *            单页返回的记录条数，默认为20。
 	 * @param baseApp
@@ -73,7 +73,7 @@ public class Timeline extends Weibo {
 	/**
 	 * 获取当前登录用户及其所关注用户的最新20条微博消息。 和用户登录 http://weibo.com 后在“我的首页”中看到的内容相同。 This
 	 * method calls http://api.t.sina.com.cn/statuses/friends_timeline.format
-	 * 
+	 *
 	 * @return list of the Friends Timeline
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -91,7 +91,7 @@ public class Timeline extends Weibo {
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博消息。<br/>
 	 * 和用户登录 http://weibo.com 后在“我的首页”中看到的内容相同。
-	 * 
+	 *
 	 * @param paging
 	 *            相关分页参数
 	 * @param 过滤类型ID
@@ -116,7 +116,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -137,7 +137,7 @@ public class Timeline extends Weibo {
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博的ID。 This method calls
 	 * http://api.t.sina.com.cn/statuses/friends_timeline.format
-	 * 
+	 *
 	 * @return list of the Friends Timeline
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -165,7 +165,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博的ID
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -187,7 +187,7 @@ public class Timeline extends Weibo {
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博消息。<br/>
 	 * 和用户登录 http://weibo.com 后在“我的首页”中看到的内容相同。
-	 * 
+	 *
 	 * @return list of status
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -206,7 +206,7 @@ public class Timeline extends Weibo {
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博消息。<br/>
 	 * 和用户登录 http://weibo.com 后在“我的首页”中看到的内容相同。
-	 * 
+	 *
 	 * @param paging
 	 *            相关分页参数
 	 * @param 过滤类型ID
@@ -233,7 +233,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取当前登录用户及其所关注用户的最新微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -255,7 +255,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取某个用户最新发表的微博列表
-	 * 
+	 *
 	 * @return list of the user_timeline
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -291,7 +291,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取某个用户最新发表的微博列表
-	 * 
+	 *
 	 * @param uid
 	 *            需要查询的用户ID。
 	 * @param screen_name
@@ -341,7 +341,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取某个用户最新发表的微博列表
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -363,7 +363,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取某个用户最新发表的微博列表ID
-	 * 
+	 *
 	 * @return user_timeline IDS
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -390,7 +390,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取用户发布的微博的ID
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -411,7 +411,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取指定微博的转发微博列表
-	 * 
+	 *
 	 * @param id
 	 *            需要查询的微博ID
 	 * @return list of Status
@@ -431,7 +431,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取指定微博的转发微博列表
-	 * 
+	 *
 	 * @param id
 	 *            需要查询的微博ID
 	 * @param count
@@ -456,7 +456,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取指定微博的转发微博列表
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -476,7 +476,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取一条原创微博的最新转发微博的ID
-	 * 
+	 *
 	 * @param id
 	 *            需要查询的微博ID
 	 * @return ids
@@ -496,7 +496,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取一条原创微博的最新转发微博的ID
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -515,7 +515,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取当前用户最新转发的微博列表
-	 * 
+	 *
 	 * @return list of Status
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -531,7 +531,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取当前用户最新转发的微博列表
-	 * 
+	 *
 	 * @param page
 	 *            返回结果的页码，默认为1
 	 * @return list of Status
@@ -549,7 +549,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取最新的提到登录用户的微博列表，即@我的微博
-	 * 
+	 *
 	 * @return list of Status
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -565,7 +565,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取最新的提到登录用户的微博列表，即@我的微博
-	 * 
+	 *
 	 * @param count
 	 *            单页返回的记录条数，默认为50。
 	 * @param page
@@ -599,7 +599,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取最新的提到登录用户的微博列表，即@我的微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -619,7 +619,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取最新的提到登录用户的微博ID列表，即@我的微博
-	 * 
+	 *
 	 * @return list of Status
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -649,7 +649,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取最新的提到登录用户的微博ID列表，即@我的微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -669,7 +669,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取双向关注用户的最新微博
-	 * 
+	 *
 	 * @return list of Status
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -694,7 +694,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取双向关注用户的最新微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -716,7 +716,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 根据微博ID获取单条微博内容
-	 * 
+	 *
 	 * @param id
 	 *            需要获取的微博ID。
 	 * @return Status
@@ -735,7 +735,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 通过微博ID获取其MID
-	 * 
+	 *
 	 * @param id
 	 *            需要查询的微博ID，批量模式下，用半角逗号分隔，最多不超过20个。
 	 * @param type
@@ -757,7 +757,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 通过微博ID获取其MID
-	 * 
+	 *
 	 * @param id
 	 *            需要查询的微博ID，批量模式下，用半角逗号分隔，最多不超过20个。
 	 * @param type
@@ -783,7 +783,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 通过微博MID获取其ID
-	 * 
+	 *
 	 * @param mid
 	 *            true string 需要查询的微博MID，批量模式下，用半角逗号分隔，最多不超过20个
 	 * @param type
@@ -807,7 +807,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 通过微博MID获取其ID
-	 * 
+	 *
 	 * @param mid
 	 *            true string 需要查询的微博MID，批量模式下，用半角逗号分隔，最多不超过20个
 	 * @param type
@@ -838,7 +838,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 通过微博MID获取其ID
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -857,7 +857,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 转发一条新微博
-	 * 
+	 *
 	 * @param id
 	 *            要转发的微博ID
 	 * @return Status
@@ -876,7 +876,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 转发一条微博
-	 * 
+	 *
 	 * @param id
 	 *            要转发的微博ID
 	 * @param status
@@ -902,7 +902,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 转发一条微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -920,7 +920,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 根据微博ID删除指定微博
-	 * 
+	 *
 	 * @param id
 	 *            需要删除的微博ID
 	 * @return Status
@@ -939,7 +939,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 发布一条新微博
-	 * 
+	 *
 	 * @param status
 	 *            要发布的微博文本内容，必须做URLencode，内容不超过140个汉字
 	 * @return Status
@@ -958,7 +958,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 发布一条新微博
-	 * 
+	 *
 	 * @param status
 	 *            要发布的微博文本内容，必须做URLencode，内容不超过140个汉字
 	 * @param lat
@@ -986,7 +986,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 发布一条新微博
-	 * 
+	 *
 	 * @param map
 	 *            参数列表
 	 * @return
@@ -1004,7 +1004,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 上传图片并发布一条新微博
-	 * 
+	 *
 	 * @param status
 	 *            要发布的微博文本内容，必须做URLencode，内容不超过140个汉字
 	 * @param pic
@@ -1024,9 +1024,31 @@ public class Timeline extends Weibo {
 				item, access_token));
 	}
 
+    /**
+     * 上传图片并发布一条新微博
+     *
+     * @param status
+     *            要发布的微博文本内容，必须做URLencode，内容不超过140个汉字
+     * @param pic
+     *            要上传的图片，仅支持JPEG、GIF、PNG格式，图片大小小于5M。
+     * @return Status
+     * @throws WeiboException
+     *             when Weibo service or network is unavailable
+     * @version weibo4j-V2 1.0.0
+     * @see http://open.weibo.com/wiki/2/statuses/upload
+     * @since JDK 1.5
+     */
+    public Status shareTextWithPic(String status, ImageItem item)
+        throws WeiboException {
+        return new Status(client.multPartURL(WeiboConfig.getValue("baseURL")
+                + "statuses/share.json",
+            new PostParameter[] { new PostParameter("status", status) },
+            item, access_token));
+    }
+
 	/**
 	 * 上传图片并发布一条新微博
-	 * 
+	 *
 	 * @param status
 	 *            要发布的微博文本内容，必须做URLencode，内容不超过140个汉字
 	 * @param pic
@@ -1053,7 +1075,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 上传图片并发布一条新微博
-	 * 
+	 *
 	 * @param map
 	 * @param item
 	 * @return
@@ -1072,7 +1094,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取微博官方表情的详细信息
-	 * 
+	 *
 	 * @return Emotion
 	 * @throws WeiboException
 	 *             when Weibo service or network is unavailable
@@ -1088,7 +1110,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 获取微博官方表情的详细信息
-	 * 
+	 *
 	 * @param type
 	 *            表情类别，face：普通表情、ani：魔法表情、cartoon：动漫表情，默认为face
 	 * @param language
@@ -1111,7 +1133,7 @@ public class Timeline extends Weibo {
 
 	/**
 	 * 批量获取指定微博的转发数评论数
-	 * 
+	 *
 	 * @param ids
 	 *            需要获取数据的微博ID，多个之间用逗号分隔，最多不超过100个
 	 * @return
